@@ -1,9 +1,8 @@
 //Start pipeline
 pipeline{
   //Agent declaration
-  agent{
-    label 'jenkins_agent'
-  }
+  agent any
+  
   //Tools declaration
   tools{
     maven 'mymaven'
